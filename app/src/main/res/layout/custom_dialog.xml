@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/healthMemo"
+        android:hint="운동 메모를 입력해 주세요."
+        android:layout_margin="20dp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </EditText>
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_margin="10dp"
+        android:background="#999999"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"></LinearLayout>
+
+    <Button
+        android:id="@+id/dateSelectBtn"
+        android:layout_margin="20dp"
+        android:text="날짜를 선택해 주십시오."
+        android:layout_width="match_parent"
+        android:layout_height="60dp"></Button>
+
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:text="저장하기"
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
